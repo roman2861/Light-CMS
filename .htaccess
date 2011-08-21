@@ -1,0 +1,16 @@
+RewriteEngine on
+DirectoryIndex index.php
+RewriteRule ^posts_([0-9]+)_(.*).html$ view.php?id=$1
+RewriteRule ^cat_([0-9]+).html$ index.php?cat=$1
+RewriteRule ^page_([0-9]+).html$ index.php?page=$1
+
+ErrorDocument 400 /error.php?400
+ErrorDocument 401 /error.php?401
+ErrorDocument 403 /error.php?403
+ErrorDocument 404 /error.php?404
+ErrorDocument 500 /error.php?500
+
+php_flag safe_mode Off
+php_flag display_errors off
+
+AddDefaultCharset WINDOWS-1251

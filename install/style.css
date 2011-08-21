@@ -1,0 +1,23 @@
+#bx {
+   width:800px;
+   margin:0 auto;
+}
+
+/* Заголовок */
+.cap {
+   margin-top: 100px;
+   padding: 18px;
+   height: 14px;
+   width: 664px;
+   background: url(cap.png);
+   font:14px Arial; 
+   font-weight:bold;
+}
+
+/* блок */
+.block {
+   padding: 18px;
+   height: 314px;
+   width: 664px;
+   background: url(block.png);
+}
