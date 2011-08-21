@@ -1,2 +1,0 @@
-<name>New Module</name>
-<desc>Tesing of new Module System</desc>
