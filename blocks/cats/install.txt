@@ -1,0 +1,13 @@
+<name>New Module</name>
+<desc>Do'h!</desc>
+<inst_folder>cats</inst_folder>
+<author>Roman2861</author>
+<version>0.0.1</version>
+<image>1</image>
+<img_src>http://skripters.com/templates/skripters/images/logo.png</img_src>
+<mysql>1</mysql>
+<block>1</block>
+<page>2</page>
+<pagev>0</pagev>
+<need></need>
+<admin>1</admin>
